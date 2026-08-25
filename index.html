@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Zombie Road Trip — a road-action and falling-block puzzle game for Android.">
+  <title>Zombie Road Trip</title>
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #f7f1df;
+      background: #131719;
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 50% 20%, rgba(255, 168, 32, .22), transparent 38%),
+        linear-gradient(155deg, #20282b, #101315 62%);
+    }
+    main {
+      width: min(760px, calc(100% - 36px));
+      padding: 56px 28px;
+      text-align: center;
+    }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: #9ad83b;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      color: #ffad24;
+      font-size: clamp(3rem, 11vw, 6.5rem);
+      line-height: .92;
+      letter-spacing: -.055em;
+      text-shadow: 0 5px 0 #743619, 0 12px 28px rgba(0, 0, 0, .55);
+    }
+    .lead {
+      max-width: 610px;
+      margin: 28px auto 0;
+      color: #d7d9d2;
+      font-size: clamp(1.05rem, 3vw, 1.35rem);
+      line-height: 1.6;
+    }
+    .status {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 10px 16px;
+      border: 1px solid #566126;
+      border-radius: 999px;
+      color: #d9f7a7;
+      background: rgba(77, 103, 28, .25);
+      font-weight: 700;
+    }
+    footer { margin-top: 54px; color: #929a9d; }
+    a { color: #8bdcff; }
+  </style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Drive · Survive · Build</p>
+  <h1>Zombie<br>Road Trip</h1>
+  <p class="lead">A fast road-action game where every zombie you hit becomes a piece in the
+    puzzle below. Keep the car moving, clear lines for biofuel, and push your distance record.</p>
+  <p class="status">Coming to Android</p>
+  <footer>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
